@@ -14,7 +14,7 @@
 
 *Tipp*: Es lohnt sich, das Wasser entweder mit den Lebensmittelfarben (in Biologie oder eine in der Physik) oder mit [Fluorescein](experiments/Wasser_faerben.png).
 
-# Experimente Auftrieb
+### Experimente Auftrieb
 
 [Archimedischer Zylinder](
 https://www.leifiphysik.de/mechanik/druck-und-auftrieb/versuche/versuch-von-archimedes)
