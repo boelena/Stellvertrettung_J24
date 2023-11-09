@@ -5,7 +5,7 @@
 |L1|Einstieg Druck, Druck *herrscht*|
 |  | Mit [Einweghandschuhe](experiments/Einweghandschuhe.jpg) Druck spüren, [Hebebühne](experiments/Hydraulik.png) |
 |L2| Luftdruck, Druck (Übungen)|
-|  |Wasserglas mit Papier abdichten, [Magdeburger Halbkugeln](experiments/Luftdruck.png) |
+|  |[Wasserglas mit Papier abdichten](https://www.entdeckerlab.de/blog/wasserglas-papier-experiment/), [Magdeburger Halbkugeln](experiments/Luftdruck.png) |
 |L3| Dichte und Schweredruck (Lernaufgabe)|
 |  |Mit [Sonde](experiments/Sonden.png) Wasser in einem Behälter untersuchen (mit U-Rohr verbinden)|
 |L4| Schweredruck Übungen |
