@@ -446,10 +446,6 @@ INPUT ./images/Beispiel-Eis.png
 INPUT ./images/Beispiel-Eis.png
 INPUT ./images/Beispiel-Eis.png
 INPUT ./images/Beispiel-Eis.png
-INPUT ./images/Beispiel-Eis.png
-INPUT ./images/Beispiel-Eis.png
-INPUT ./images/Beispiel-Eis.png
-INPUT ./images/Beispiel-Eis.png
 INPUT hydrostatik.aux
 INPUT ./hydrostatik.out
 INPUT ./hydrostatik.out
@@ -459,7 +455,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb

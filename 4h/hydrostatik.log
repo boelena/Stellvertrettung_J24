@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.9)  9 NOV 2023 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.8.9)  9 NOV 2023 18:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1174,7 +1174,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <images/Archimedisches_Prinzip.png, id=154, 284.262pt x 221.02576pt>
 File: images/Archimedisches_Prinzip.png Graphic file (type png)
 <use images/Archimedisches_Prinzip.png>
-Package pdftex.def Info: images/Archimedisches_Prinzip.png  used on input line 614.
+Package pdftex.def Info: images/Archimedisches_Prinzip.png  used on input line 621.
 (pdftex.def)             Requested size: 131.53845pt x 102.28014pt.
 
 
@@ -1188,10 +1188,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <images/Beispiel-Eis.png, id=160, 170.6375pt x 222.8325pt>
 File: images/Beispiel-Eis.png Graphic file (type png)
 <use images/Beispiel-Eis.png>
-Package pdftex.def Info: images/Beispiel-Eis.png  used on input line 636.
+Package pdftex.def Info: images/Beispiel-Eis.png  used on input line 642.
 (pdftex.def)             Requested size: 75.15993pt x 98.15201pt.
 
-Overfull \hbox (2.4216pt too wide) in paragraph at lines 627--641
+Overfull \hbox (2.4216pt too wide) in paragraph at lines 633--647
 []$[]$ $[]$ 
  []
 
@@ -1202,24 +1202,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[14 <./images/Beispiel-Eis.png>]
-File: images/Beispiel-Eis.png Graphic file (type png)
-<use images/Beispiel-Eis.png>
-Package pdftex.def Info: images/Beispiel-Eis.png  used on input line 669.
-(pdftex.def)             Requested size: 75.15993pt x 98.15201pt.
-
-Overfull \hbox (2.4216pt too wide) in paragraph at lines 660--672
-[]$[]$ $[]$ 
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[15] (./hydrostatik.aux)
+[14 <./images/Beispiel-Eis.png>] (./hydrostatik.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-03>
@@ -1228,18 +1211,18 @@ Package rerunfilecheck Info: File `hydrostatik.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30646 strings out of 475188
- 628719 string characters out of 5763802
+ 30638 strings out of 475188
+ 628663 string characters out of 5763802
  1930254 words of memory out of 5000000
  51421 multiletter control sequences out of 15000+600000
  569272 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,11n,129p,714b,1044s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on hydrostatik.pdf (15 pages, 2897421 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
+Output written on hydrostatik.pdf (14 pages, 2886966 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 169 compressed objects within 2 object streams
- 44 named destinations out of 1000 (max. 500000)
+ 239 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
