@@ -1,15 +1,23 @@
 # Möglicher Ablauf
 
 |Lektion|Thema| 
-|L1|Einstieg Druck, Druck *herrscht*| |
+|L1|Einstieg Druck, Druck *herrscht*|
+
 |  | Mit [Einweghandschuhe](experiments/Einweghandschuhe.jpg) Druck spüren, [Hebebühne](experiments/Hydraulik.png) |
-|L2| Luftdruck, Druck (Übungen)| |
+
+|L2| Luftdruck, Druck (Übungen)|
+
 |  |Wasserglas mit Papier abdichten, [Magdeburger Halbkugeln](experiments/Luftdruck.png) |
+
 |L3| Dichte und Schweredruck (Lernaufgabe)|
+
 |  |Mit [Sonde](experiments/Sonden.png) Wasser in einem Behälter untersuchen (mit U-Rohr verbinden)|
+
 |L4| Schweredruck Übungen |
+
 |L5| Hydrostatisches Paradoxon |
-|  | [Experiment](https://www.leifiphysik.de/mechanik/druck-und-auftrieb/versuche/hydrostatisches-paradoxon) mit verschiedenen [Gefässen](experiments/H-Paradoxon_Kraft.png), [kommunizierende Röhren](experiments/H-Paradoxon.png)
+
+|  | [Experiment](https://www.leifiphysik.de/mechanik/druck-und-auftrieb/versuche/hydrostatisches-paradoxon) mit verschiedenen [Gefässen](experiments/H-Paradoxon_Kraft.png), [kommunizierende Röhren](experiments/H-Paradoxon.png)|
 
 *Tipp*: Es lohnt sich, das Wasser entweder mit den Lebensmittelfarben (in Biologie oder eine in der Physik) oder mit [Fluorescein](experiments/Wasser_faerben.png).
 
