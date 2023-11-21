@@ -5,7 +5,7 @@
 |L1|Einstieg Schwingungen: Begriffe|
 |  | |
 |L2| Von Kreisbewegung zu Schwingungen ([Unterlagen](01_Schwingungen_Bewegung.pdf))|
-|  | Experiment mit Schatten |
+|  | [Experiment mit Schatten](Experimente/Kreisbewegung_Schwingungen_Schatten-Experiment.mov) |
 |L3| Federpendel|
 |L4| Fadenpendel |
 |L5| Übungen oder Energie |
