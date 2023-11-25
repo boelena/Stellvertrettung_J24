@@ -1,0 +1,435 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+
+
+\usepackage[margin=1in]{geometry}		% For setting margins
+\usepackage{amsmath}				% For Math
+\usepackage{siunitx}
+\usepackage{multicol}
+\usepackage{fancyhdr}% For fancy header/footer
+
+\usepackage[usenames,dvipsnames]{xcolor}
+\definecolor{mygray}{gray}{0.6} 
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{graphicx, wrapfig}
+%\usepackage{subcaption}
+%\captionsetup[subfigure]{labelformat=empty}
+%\usepackage{hyperref}
+
+
+\usepackage[colorlinks, linktocpage]{hyperref} % adds hyper links inside the generated pdf file
+\hypersetup{
+	%   % false: boxed links; true: colored links
+	linkcolor=NavyBlue,        % color of internal links
+	citecolor=NavyBlue,        % color of links to bibliography
+	filecolor=NavyBlue,     % color of file links
+	urlcolor=NavyBlue,
+    % anchorcolor=mygray,
+    % allcolors=Blue,
+    %pdftitle={KGL Physik}       
+}
+
+% \hypersetup{
+% 	colorlinks=true,       % false: boxed links; true: colored links
+% 	linkcolor=NavyBlue,        % color of internal links
+% 	citecolor=NavyBlue,        % color of links to bibliography
+% 	filecolor=magenta,     % color of file links
+% 	urlcolor=NavyBlue         
+% }
+
+
+\usepackage{titlesec}
+\usepackage{tcolorbox}
+\usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{threeparttable}
+
+\usepackage{arydshln}
+
+
+\newenvironment{itemize*}%
+  {\begin{itemize}%
+    \setlength{\itemsep}{0pt plus 2pt}%
+    \setlength{\parskip}{2pt}%
+    \setlength{\itemindent}{0pt}}%
+  {\end{itemize}}
+
+\newenvironment{enumerate*}%
+  {\begin{enumerate}%
+    \setlength{\itemsep}{2pt}%
+    \setlength{\parskip}{2pt}}%
+  {\end{enumerate}}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+
+%\usepackage{fontawesome}
+
+% \setlength{\dashlinedash}{0.2pt}
+% \setlength{\dashlinegap}{4.5pt}
+% \setlength{\arrayrulewidth}{0.2pt}
+
+\setlength\dashlinedash{0.2pt}
+\setlength\dashlinegap{1.5pt}
+\setlength\arrayrulewidth{0.3pt}
+
+
+%\titleformat*{\section}{\large\bfseries} - section in the header
+%%%%%%%%%%%%%%%%%%%%%%
+% Set up fancy header/footer
+\pagestyle{fancy}
+\fancyhead[LO,L]{Elektrizitätslehre}
+\fancyhead[CO,C]{}
+%\fancyhead[RO,R]{\today}
+%\fancyhead[RO,R]{FS2023}
+\fancyfoot[LO,L]{\small E. Borisova}
+\fancyfoot[CO,C]{\thepage}
+%\fancyfoot[RO,R]{\small Quellen: M. Mohr, FD Physik I}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\figurename}{Abb.}
+\setcounter{figure}{1}
+%\renewcommand{\figurename}{}
+
+% Tuning section parameters
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\titlespacing\section{0pt}{4pt plus 2pt minus 2pt}{4pt plus 2pt minus 2pt}
+\renewcommand{\baselinestretch}{1.1}
+
+\newcommand{\textdirectcurrent}{%
+  \settowidth{\dimen0}{$=$}%
+  \vbox to .85ex {\offinterlineskip
+    \hbox to \dimen0{\leaders\hrule\hfill}
+    \vskip.35ex
+    \hbox to \dimen0{%
+      \leaders\hrule\hskip.2\dimen0\hfill
+      \leaders\hrule\hskip.2\dimen0\hfill
+      \leaders\hrule\hskip.2\dimen0
+    }
+    \vfill
+  }%
+}
+\newcommand{\mathdirectcurrent}{\mathrel{\textdirectcurrent}}
+
+%\hypersetup{hidelinks}
+
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+
+%nice tables
+\usepackage{booktabs}
+\usepackage{array}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{L}[1]{>{\raggedleft\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\usepackage{subfiles} % Best loaded last in the preamble
+
+\begin{document}
+
+%\tableofcontents
+%\newpage
+
+\section*{Elektrischer Strom}
+
+Erklären Sie als Wiederholung, was ein elektrischer Strom im Bezug auf die Struktur der Materie bedeutet. In der Skizze sehen Sie ein Modell der inneren Struktur eines Drahtes.
+
+\vspace{-0.3cm}
+\begin{itemize*}
+    \item Füllen Sie die Lücken aus. 
+    \item Mit dem grünen Pfeil ist die Geschwindigkeit der Elektronen gezeichnet. Welche ist die positive Richtung des elektrischen Stroms? \underline{\hspace{10cm}}
+\end{itemize*}
+
+\vspace{-0.5cm}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{images/Leiter.png}
+    %\caption{Caption}
+    \label{fig:Leiter}
+\end{figure}
+
+\textbf{Wichtige Begriffe}: Schreiben Sie in Ihren eigenen Worten, was Sie unter diesen Begriffen verstehen.
+
+\vspace{-0.3cm}
+\begin{itemize}[label=-]
+    \item \textbf{Elektrischer Strom}
+	
+	\begin{tikzpicture}
+		\draw[step=5mm, line width=0.2mm, black!20!white] (0,0) grid  (15.5cm, 2cm);% 10cm);
+	\end{tikzpicture}
+
+    \item \textbf{Elektrische Stromstärke} 
+	
+	\begin{tikzpicture}
+		\draw[step=5mm, line width=0.2mm, black!20!white] (0,0) grid  (15.5cm, 2cm);% 10cm);
+	\end{tikzpicture}
+
+    \item \textbf{Elektrische Spannung}
+	
+	\begin{tikzpicture}
+		\draw[step=5mm, line width=0.2mm, black!20!white] (0,0) grid  (15.5cm, 2cm);% 10cm);
+	\end{tikzpicture}
+
+    \item \textbf{Elektrischer Widerstand}
+
+	\begin{tikzpicture}
+		\draw[step=5mm, line width=0.2mm, black!20!white] (0,0) grid  (15.5cm, 2cm);% 10cm);
+	\end{tikzpicture}
+\end{itemize}
+
+
+\newpage
+
+\textbf{Stromstärke ($I$) und Spannung ($U$) messen}
+
+\textit{Um was geht es?}
+
+In den folgenden Experimenten können Sie einfache elektrische Stromkreise bauen. Zudem erfahren Sie, wie Sie ein Messgerät für elektrische Stromstärke und Spannung richtig anschliessen und ablesen.
+
+\vspace{0.2cm}
+
+\color{red}
+\textbf{Wichtig!!!}: Wurde das Messgerät irrtümlich eingestellt, kann die Messschaltung und das Messgerät dabei zerstört werden! Immer \underline{bei ausgeschalteten Spannungsquelle anschliessen} und \underline{doppelt kontrollieren}.
+\color{black}
+
+\vspace{0.5cm}
+
+\begin{tcolorbox}[width=\textwidth, %colback=gray!10!white,colframe=gray!75!black]
+    colback=white,colframe=gray!75!black]
+
+
+\textbf{Stromstärke messen}
+
+\begin{wrapfigure}[6]{r}{0.2\textwidth}
+\vspace{-12pt}
+  \centering
+    \includegraphics[width=0.15\textwidth]{images/multimeter-vc-870.png}
+%    \vspace{-20pt}
+  %\caption{\footnotesize text) }
+\end{wrapfigure}
+
+\textit{Anschliessen und Einstellen des Messgerätes, oder \textbf{Ampèremeters}}:
+
+
+Das Gerät muss \textbf{immer mit 2 Kabeln in Serie in den Stromkreis} eingebaut werden („Eingang“ und  „Ausgang“). 
+Die beiden Kabel sind an den folgenden Buchsen anzuschliessen: 
+
+
+\begin{itemize}[label={--}]
+    \item „10 A“   (häufig rot) / oder Anschluss \underline{nur für kleine Ströme}
+    \item „COM“  (häufig schwarz)
+\end{itemize}
+
+
+Um die Stromstärke korrekt abzulesen, drehen Sie den Drehschalter auf die Stufe ``10 A'' (oder auch ``A'', ``DCA'',  ``A~$\mathdirectcurrent$''  je nach Gerät). Auf dem Display erscheint dann die Stromstärke in der Einheit Ampère. \vspace{0.2cm}
+
+\textit{Hinweis: Wenn in der Anzeige ein Minuszeichen erscheint, können Sie dieses durch Vertauschen der Anschlussbuchsen zum Verschwinden bringen.}
+
+%\vspace{4cm}
+\end{tcolorbox}
+
+
+\vspace{0.5cm}
+\textbf{Aufgaben}:
+
+\begin{enumerate*}
+    \item Bauen Sie die beiden abgebildeten Schaltungen auf. Messen Sie die Stromstärke des elektrischen Stroms, der durch das Lämpchen fliesst. 
+    
+    \begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.6\textwidth]{images/Strom_A1.png}
+    	%\caption{Caption}
+    	\label{fig:A1}
+    \end{figure}
+
+	
+	Spielt es eine Rolle, ob das Ampèremeter oberhalb oder unterhalb des Lämpchens eingebaut wird? 
+	
+	\begin{tikzpicture}
+		\draw[step=5mm, line width=0.2mm, black!20!white] (0,0) grid  (15.5cm, 2cm);% 10cm);
+	\end{tikzpicture}
+	
+    
+	\newpage
+
+    \item Bauen Sie die abgebildete Schaltung auf. Messen Sie die Stromstärke an den Stellen 1, 2 und 3. Können Sie aus diesen Messungen einen Zusammenhang ziehen?
+    
+    \vspace{-0.2cm}
+
+    \begin{figure}[h!]
+		\centering
+    	\includegraphics[width=0.6\textwidth]{images/Strom_A2.png}
+    	%\caption{Caption}
+    	\label{fig:A2}
+    \end{figure}
+
+	
+	
+	\begin{tikzpicture}
+		\draw[step=5mm, line width=0.2mm, black!20!white] (0,0) grid  (15.5cm, 4cm);% 10cm);
+	\end{tikzpicture}	
+    
+    \item Untersuchen Sie die Stromstärke bei Reihenschaltung. Zeichnen Sie einen Schaltplan dazu. Was können Sie über die Stromstärke in diesem Fall sagen?
+    
+	\textit{\underline{Schaltplan}}
+	\vfill
+
+	\begin{tikzpicture}
+		\draw[step=5mm, line width=0.2mm, black!20!white] (0,0) grid  (15.5cm, 4cm);% 10cm);
+	\end{tikzpicture}	
+\end{enumerate*}
+
+
+
+
+\newpage
+%\textbf{Spannung messen}
+
+\begin{tcolorbox}[width=\textwidth, %colback=gray!10!white,colframe=gray!75!black]
+    colback=white,colframe=gray!75!black]
+
+\textbf{Spannung messen}
+
+
+
+\begin{wrapfigure}[7]{r}{0.3\textwidth}
+\vspace{-12pt}
+  \centering
+    \includegraphics[width=0.2\textwidth]{images/multimeter-vc-870.png}
+%    \vspace{-20pt}
+  %\caption{\footnotesize text) }
+\end{wrapfigure}
+
+\textit{Anschliessen und Einstellen des Messgerätes, oder \textbf{Voltmeters}}:
+
+
+Das Gerät muss immer mit 2 Kabeln \textbf{parallel} in den Stromkreis eingebaut werden („Eingang“ und  „Ausgang“). 
+Die beiden Kabel sind an den folgenden Buchsen anzuschliessen:
+
+\begin{itemize}[label={--}]
+    \item „$V\Omega \si{\hertz}CAP$“   (häufig rot)
+    \item „COM“  (häufig schwarz)
+\end{itemize}
+
+Um die Spannung abzulesen, drehe den Drehschalter auf die Stufe „$V=$“ (kann je nach Gerät ein wenig unterschiedlich sein). Auf dem Display erscheint dann die Spannung in der Einheit Volt.
+
+%\vspace{0.1cm}
+
+\textit{Hinweis: Wenn in der Anzeige ein Minuszeichen erscheint, können Sie dieses durch Vertauschen der Anschlussbuchsen zum Verschwinden bringen.}
+\end{tcolorbox}
+
+\color{red}
+\textbf{Wichtig!!!}: Wurde das Messgerät irrtümlich eingestellt, kann die Messschaltung und das Messgerät dabei zerstört werden! Immer \underline{bei ausgeschalteten Spannungsquelle anschliessen} und \underline{doppelt kontrollieren}.
+\color{black}
+%\vspace{4cm}
+
+\vspace{0.2cm}
+\textbf{Aufgaben}
+
+\vspace{-0.2cm}
+
+\begin{enumerate*}
+    \item Bauen Sie  die beiden abgebildeten Schaltungen auf. Messe die Spannung zwischen den Polen der Batterie (linkes Bild) und zwischen den Anschlüssen des Lämpchens (rechts). 
+
+	\vspace{0.2cm}
+    \begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/Spannung_A1.png}
+    %\caption{Caption}
+    \label{fig:U_A1}
+    \end{figure}
+
+	\vspace{0.2cm}
+
+	Was können Sie aus diesen Messungen schliessen? 
+
+	\vspace{0.5cm}
+	
+	\begin{tikzpicture}
+		\draw[step=5mm, line width=0.2mm, black!20!white] (0,0) grid  (15.5cm, 4cm);% 10cm);
+	\end{tikzpicture}
+
+	\newpage
+    
+    \item Bauen Sie die abgebildete Schaltung auf.
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.6\textwidth]{images/Spannung_A2.png}
+		%\caption{Caption}
+		\label{fig:U_A2}
+	\end{figure}
+	
+	Messen Sie die \textbf{Spannung} zwischen den Punkten \vspace{0.5cm}
+
+	1 und 2 ...................... $V$ \hspace{1cm} 
+	3 und 4 ...................... $V$ \hspace{1cm} 
+	4 und 5 ...................... $V$ \vspace{0.2cm}
+
+    
+Können Sie eine Gesetzmässigkeit formulieren? 
+
+\begin{tikzpicture}
+	\draw[step=5mm, line width=0.2mm, black!20!white] (0,0) grid  (15.5cm, 3cm);% 10cm);
+\end{tikzpicture}
+
+
+\item Bauen Sie einen Stromkreis, in dem zwei Lämpchen parallel geschaltet sind. Zeichnen Sie einen Schaltplan für diesen Stromkreis. Messen Sie die Spannung an den beiden Lämpchen und der Spannungsquelle. Was können Sie über die Spannung sagen?
+
+\textit{\underline{Schaltplan}}
+	\vfill
+
+	\begin{tikzpicture}
+		\draw[step=5mm, line width=0.2mm, black!20!white] (0,0) grid  (15.5cm, 3cm);% 10cm);
+	\end{tikzpicture}
+
+\end{enumerate*}
+
+%\newpage
+
+
+
+\newpage
+
+\section*{Kennlinien von Widerständen}
+
+Die Kennlinie eines Leiters stellt den Zusammenhang zwischen angelegter Spannung und sich ergebender Stromstärke dar.
+
+\textbf{Aufgabe}:
+
+\begin{minipage}{0.7\textwidth}
+	Untersuchen Sie den Zusammenhang zwischen der Spannung und der Stromstärke bei verschiedenen Metalldrähten. 
+
+	Folgende Fragen sind zu berücksichtigen:
+
+	\begin{enumerate}
+		\item Wie beeinflusst der Durchmesser den Widerstand eines Drahtes?
+		\item Wie beeinflusst die Länge den Widerstand eines Drahtes?
+	\end{enumerate}
+\end{minipage}
+\begin{minipage}{0.25\textwidth}
+	\begin{flushright}
+		\includegraphics[width=0.9\textwidth]{images/wires.png}
+	\end{flushright}
+\end{minipage}
+
+\vspace{0.5cm}
+\textbf{Messungen}:
+
+\vspace{-0.3cm}
+\begin{itemize}[label=-]
+    \item Untersuchen Sie zunächst, in welchem Bereich $U$ und $I$ in etwa liegen.
+    \item Wählen Sie die Anzahl der Messwerte so aus, dass sie den gesamten Bereich gut abdecken.
+    \item Stellen Sie die Messwerte graphisch auf einem Diagramm dar:     
+    $x$-Achse $U\,$(V) und $y$-Achse $I\,$(A)
+    \item Was können Sie aus den Messungen schliessen?
+\end{itemize}
+  
+
+\end{document}
