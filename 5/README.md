@@ -1,4 +1,4 @@
-# Möglicher Ablauf zum Thema "Schwingungen"
+## Möglicher Ablauf zum Thema "Schwingungen"
 
 |Lektion|Thema| 
 | --- | --- |
