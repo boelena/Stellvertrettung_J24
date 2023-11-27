@@ -1,6 +1,6 @@
 # Möglicher Ablauf
 
-|Lektion|Thema| 
+|Lektion|Thema/Inhalt| 
 | --- | --- |
 |L1|Einstieg Druck, Druck *herrscht*|
 |  | Mit [Einweghandschuhe](experiments/Einweghandschuhe.jpg) Druck spüren, [Hebebühne](experiments/Hydraulik.png) |
